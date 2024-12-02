@@ -37,7 +37,7 @@ public class DiscountCode {
     private Double value;
 
     @NotNull(message = "Data ważnościiiiiiiii rabatu jest wymagana")
-    @Future(message = "Data ważności rabatu musi być przyszła")
+    @Future(message = "Data ważności rabatuuuuuuu musi być przyszła")
     @Column(nullable = false)
     private LocalDate expirationDate;
 }

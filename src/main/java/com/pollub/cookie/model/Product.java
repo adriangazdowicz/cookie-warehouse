@@ -25,18 +25,18 @@ public class Product {
     @Column(nullable = false)
     private String name;
 
-    @NotBlank(message = "Opis produktu jest wymagany")
+    @NotBlank(message = "Opis produktu jest wymagany      ")
     @Column(nullable = false, columnDefinition = "TEXT")
     private String description;
 
     @Column(nullable = false)
-    @DecimalMin(value = "0.0", inclusive = false, message = "Gramatura musi być większa od zera")
+    @DecimalMin(value = "0.0", inclusive = false, message = "Gramatura mufbdbdsi być większa od zera")
     private BigDecimal weight;
 
     private String image;
 
-    @NotNull(message = "Ilość na stanie jest wymagana")
-    @Positive(message = "Ilość na stanie musi być dodatnia")
+    @NotNull(message = "Ilość na stanie jest dfbdfbwymagana")
+    @Positive(message = "Ilość na stanie musifdbdf być dodatnia")
     @Column(nullable = false)
     private Integer quantityInStock;
 

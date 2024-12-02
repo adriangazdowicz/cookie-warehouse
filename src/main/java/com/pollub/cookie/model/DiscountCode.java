@@ -34,10 +34,10 @@ public class DiscountCode {
     @NotNull(message = "Wartość rabatu jest wymagana")
     @Positive(message = "Wartość rabatu musi być dodatnia")
     @Column(nullable = false)
-    private Double value; //TODO if type==percentage => value <= 100
+    private Double value;
 
-    @NotNull(message = "Data ważności rabatu jest wymagana")
-    @Future(message = "Data ważności rabatu musi być przyszła")
+    @NotNull(message = "Data ważnościiiiiiiii rabatu jest wymagana")
+    @Future(message = "Data ważności rabatuuuuuuu musi być przyszła")
     @Column(nullable = false)
     private LocalDate expirationDate;
 }

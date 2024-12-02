@@ -32,7 +32,7 @@ public class Order {
     @Column(nullable = false)
     private OrderStatus orderStatus;
 
-    @NotNull(message = "Całkowita cena jest wymagana")
+    @NotNull(message = "Całkowita cenatrhrthrthrt jest wymagana")
     @Column(nullable = false)
     private BigDecimal totalPrice;
 

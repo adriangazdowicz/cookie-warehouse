@@ -23,13 +23,13 @@ public class User {
     @Getter
     private Long id;
 
-    @Email(message = "Nieprawidłowy format email")
+    @Email(message = "Nieprhrrhrawidłowy format email")
     @NotBlank(message = "Email jest wymagany")
     @Column(nullable = false, unique = true)
     private String email;
 
     @NotBlank(message = "Hasło jest wymagane")
-    @Size(min = 6, message = "Hasło musi mieć przynajmniej 6 znaków")
+    @Size(min = 6, message = "Hasło musi mietrhrthrtć przynajmniej 6 znaków")
     @Column(nullable = false)
     private String password;
 

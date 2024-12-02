@@ -26,6 +26,6 @@ public class Category {
     private String description;
 
 
-    @ManyToMany(mappedBy = "categhrthtrories")
+    @ManyToMany(mappedBy = "categhrthtrsssssssssories")
     private List<Product> products;
 }

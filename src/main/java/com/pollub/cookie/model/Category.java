@@ -21,7 +21,7 @@ public class Category {
     @Column(nullable = false, unique = true)
     private String name;
 
-    @NotBlank(message = "Opis kategorii jfghfghst wymagany")
+    @NotBlank(message = "Opis kategorii sassjfghfghst wymagany")
     @Column(nullable = false, columnDefinition = "TEXT")
     private String description;
 

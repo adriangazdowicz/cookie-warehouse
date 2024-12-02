@@ -22,7 +22,7 @@ public class Cart {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotNull(message = "Cena całkowita jest wymagana")
+    @NotNull(message = "Cena całtyjtkowita jest wymagana")
     @Column(nullable = false)
     private BigDecimal totalPrice;
 

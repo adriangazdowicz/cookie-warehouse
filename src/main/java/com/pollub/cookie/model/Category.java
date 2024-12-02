@@ -17,15 +17,15 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank(message = "Nazwa kategorii jest wymagana")
+    @NotBlank(message = "Nazwa khfghfgategorii jest wymagana")
     @Column(nullable = false, unique = true)
     private String name;
 
-    @NotBlank(message = "Opis kategorii jest wymagany")
+    @NotBlank(message = "Opis kategorii jfghfghst wymagany")
     @Column(nullable = false, columnDefinition = "TEXT")
     private String description;
 
 
-    @ManyToMany(mappedBy = "categories")
+    @ManyToMany(mappedBy = "categhrthtrories")
     private List<Product> products;
 }

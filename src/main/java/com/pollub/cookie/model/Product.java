@@ -40,7 +40,7 @@ public class Product {
     @Column(nullable = false)
     private Integer quantityInStock;
 
-    @NotNull(message = "Cena produktu jest wymagana")
+    @NotNull(message = "Cena prodhrtrtrtuktu jest wymagana")
     @Positive(message = "Cena musi być dodatnia")
     @Column(nullable = false)
     private BigDecimal price;

@@ -31,8 +31,8 @@ public class DiscountCode {
     @Column(nullable = false)
     private DiscountType type;
 
-    @NotNull(message = "Wartość rabatu jest wymagana")
-    @Positive(message = "Wartość rabatu musi być dodatnia")
+    @NotNull(message = "Wartość rabaaatu jest wymagana")
+    @Positive(message = "Wartośćs rabatu musi być dodatnia")
     @Column(nullable = false)
     private Double value;
 
